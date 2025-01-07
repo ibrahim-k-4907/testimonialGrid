@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald;
+    background-color: aliceblue;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 1200px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 25% 25% 24% 26%;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    margin: 20px auto;
+}
+
+.one {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.two {
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid darkslategrey;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.three {
+    background-color: white;
+    color: grey;
+    border: 1px solid white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.four {
+    background-color: white;
+    color: grey;
+    border: 1px solid white;
+    
+}
+
+.five {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.842);
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+.box {
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.img-logo {
+    margin-right: 20px;
+}
+
+.white {
+    color: white;
+    font-style: bold;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.txt-light {
+    color: rgb(198, 191, 191);
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.color {
+    color: darkslategray;
+    margin-bottom: 12px;
+    font-style: bold;
+    font-size: 20px;
+}
+
